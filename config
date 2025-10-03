@@ -1,0 +1,12 @@
+# in ~/.config/i3/config
+
+
+# Launch tui powermenu
+bindsym $mod+x exec --no-startup-id xfce4-terminal \
+  --title="powermenu" \
+  --font="Monospace 28" \
+  --geometry=19x10 \
+  -e ~/.local/bin/powermenu/powermenu21.sh
+
+# i3 rules: floating + focus + raise
+for_window [title="powermenu"] floating enable, focus, raise
