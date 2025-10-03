@@ -3,7 +3,6 @@
 options=("󰍃 Logout" "󰤄 Suspend" " Reboot" "⏻ Shutdown")
 selected=0
 
-# Draw confirmation box
 confirm_box() {
     clear
     echo "  ૮ ◞ ﻌ ◟ა u sure?"
